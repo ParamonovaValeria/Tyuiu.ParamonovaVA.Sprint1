@@ -1,6 +1,6 @@
-﻿using Tyuiu.ParamonovaVA.Sprint1.Task2.V27.Lib;
+﻿using Tyuiu.ParamonovaVA.Sprint1.Task3.V9.Lib;
 
-namespace Tyuiu.ParamonovaVA.Sprint1.Task2.V27
+namespace Tyuiu.ParamonovaVA.Sprint1.Task3.V9
 {
     internal class Program
     {
@@ -13,8 +13,8 @@ namespace Tyuiu.ParamonovaVA.Sprint1.Task2.V27
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема:  Базовые навыки работы в C#                                       *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #27                                                              *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #9                                                              *");
             Console.WriteLine("* Выполнил: Парамонова Валерия Алексеевна | РППб-24-1                     *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -24,15 +24,16 @@ namespace Tyuiu.ParamonovaVA.Sprint1.Task2.V27
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
 
-            int a;
-            Console.WriteLine("Введите значение A:");
-            a = Convert.ToInt32(Console.ReadLine());
+            int x = 150;
+            
+            Console.WriteLine( x + "минут");
+            
 
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Периметр квадрата со стороной А = " + ds.CalculateSquarePerimetr(a));
+            Console.WriteLine("В часах = " + ds.ConvertMinutesToHours(x));
 
             Console.ReadLine();
         }
