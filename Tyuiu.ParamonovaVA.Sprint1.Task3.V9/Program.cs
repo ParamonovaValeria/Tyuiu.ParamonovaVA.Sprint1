@@ -33,7 +33,7 @@ namespace Tyuiu.ParamonovaVA.Sprint1.Task3.V9
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("В часах = " + ds.ConvertMinutesToHours(x));
+            Console.WriteLine("В часах = " + "{0:N3}",ds.ConvertMinutesToHours(x));
 
             Console.ReadLine();
         }
